@@ -1,0 +1,129 @@
+.flutuarEsquerda{
+	float: left;
+}
+.flutuarDireita{
+	float: right;
+}
+.titulo{
+	font-family: Apple Chancery, cursive;
+	background-color: #FAEBD7;
+	text-align: center;
+	color: #00BFFF;
+	padding:10px;
+	margin-left: 15px;
+}
+.corpo{
+	margin-top: 50px;
+	column-count: 3;
+	column-gap: 50px;
+}
+.corpo h2{
+	margin-bottom: 70px;
+	column-span: all;
+	text-align: center;
+	color: #00BFFF;
+	font-family: Apple Chancery, cursive;
+}
+.corpo h3{
+	color: #63B8FF;
+	font-family: Apple Chancery, cursive;
+}
+
+.corpo button{	
+	background-color: #5CACEE; 
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	padding: 14px 16px;
+
+}
+.corpo a:link{
+	text-decoration: none;
+}
+
+.item img{
+	width: 100%;
+}
+.item h2{
+	text-align: center;
+	color: #FFFFFF;
+	font-style: bold;
+	font-family: Apple Chancery, cursive;
+	font-size: 50px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #FFBBFF;
+  margin-top: 10px;
+}
+#formularioCadastro h3{
+	text-align: center;
+	color: #DB7093;
+	font-family: American Typewriter, serif;
+	margin-bottom: 40px;
+}
+#formularioCadastro{
+	margin-top:30px;
+}
+#corpo img{
+	width:25%;
+}
+#corpo span{
+	color: #528B8B;
+
+}
+
+#inicio{
+
+	position: static;
+}
+#logo img{
+	width:15%;
+}
+#logo h6{
+	color: #EE82EE;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Georgia, serif;
+	font-size: 20px;
+}
+#logo span{
+	color: #836FFF;
+}
+#icones{
+	margin-top:10px;
+}
+#icones img{
+	width:4%;
+}
+#iconesFoot img{
+	width:1.5%;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FAEBD7;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: #DA70D6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: #D8BFD8;
+}
